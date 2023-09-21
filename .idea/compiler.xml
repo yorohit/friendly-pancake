@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="distributed-event-bus" />
+        <module name="service-orchestrator" />
+        <module name="distributed-cache" />
+        <module name="rate-limiter" />
+        <module name="Payment Gateway" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="distributed-cache" target="11" />
+      <module name="distributed-event-bus" target="11" />
+      <module name="Payment Gateway" target="17" />
+      <module name="rate-limiter" target="10" />
+      <module name="service-orchestrator" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
