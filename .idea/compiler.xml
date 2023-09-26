@@ -13,12 +13,5 @@
         <module name="Payment Gateway" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="distributed-cache" target="11" />
-      <module name="distributed-event-bus" target="11" />
-      <module name="Payment Gateway" target="17" />
-      <module name="rate-limiter" target="10" />
-      <module name="service-orchestrator" target="11" />
-    </bytecodeTargetLevel>
   </component>
 </project>
